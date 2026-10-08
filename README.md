@@ -1,4 +1,4 @@
-# Royce Games website draft
+# RoyceGames website draft
 
 This folder is a standalone GitHub Pages site for `roycegames.online`. It is **not ready to publish**: the visible draft banners, `noindex` tags, placeholder contact details, and incomplete privacy notice intentionally flag missing facts.
 
@@ -24,7 +24,7 @@ Search for `[` and `Draft` before publishing. Remove the draft ribbons and `noin
 
 1. **Completed October 8, 2026:** In Alibaba Cloud **Public DNS** for `roycegames.online`, a TXT record was added with host `_github-pages-challenge-RoyceGames` (Alibaba Cloud displays it in lowercase) and value `33beff925c372a49db6ccf15fb4d56`. Leave the TXT record in place.
 2. **Completed October 8, 2026:** GitHub `RoyceGames` account Settings → Pages displayed `Successfully verified roycegames.online` and listed the domain as `Verified`. Domain verification does not publish the website.
-3. Once the release checks above are complete, publish the final files to planned destination `RoyceGames/roycegames.github.io`, branch `main`, repository root. Confirm that the signed-in account menu says `RoyceGames` immediately before creating the public repository or uploading. In repository Settings → Pages, publish from `main` / `(root)` and set the custom domain to `roycegames.online` before adding site-routing DNS records. The included `CNAME` file contains the same domain.
+3. **Staged October 8, 2026:** The draft files were uploaded to the private `RoyceGames/roycegames.github.io` repository, branch `main`, repository root (initial commit `5cbff37`). Repository Settings → Pages currently says **Upgrade or make this repository public to enable Pages**. Before publishing, replace the placeholder contacts, complete the privacy audit and implementation checks, and update the files in the same repository. Confirm that the signed-in account menu says `RoyceGames` immediately before further uploads or visibility changes. After the content is ready, make the repository public for free GitHub Pages, publish from `main` / `(root)`, and set the custom domain to `roycegames.online` before adding site-routing DNS records. The included `CNAME` file contains the same domain.
 4. Add the site-routing DNS records below, wait for propagation, then enable **Enforce HTTPS** in GitHub Pages. Check the site, support page, privacy policy, and privacy choices page over HTTPS.
 
 At the domain registrar, add four apex `A` records for `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`. If `www.roycegames.online` should work, add a `CNAME` record for `www` pointing to `RoyceGames.github.io`. Avoid conflicting apex `A`/`AAAA`/`ALIAS` records. These values follow GitHub's current Pages documentation and should be rechecked in its settings when configuring DNS. Verify all three HTTPS pages on desktop and mobile after propagation.
